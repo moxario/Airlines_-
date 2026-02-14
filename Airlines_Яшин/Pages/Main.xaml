@@ -13,8 +13,8 @@
         <Label Content="Лучший способ купить авиабилеты дёшево" HorizontalAlignment="Center" VerticalAlignment="Top" Foreground="White" Margin="0,138,0,0"/>
         <Label Content="Откуда:" Foreground="White"  HorizontalAlignment="Center" VerticalAlignment="Top" Margin="-190,177,0,0"/>
         <Label Content="Куда:" HorizontalAlignment="Center" VerticalAlignment="Top" Foreground="White" Margin="-200,238,0,0"/>
-        <TextBox Width="250" Height="25" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="10,208,0,0"/>
-        <TextBox Width="250" Height="25" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="10,269,0,0"/>
-        <Button VerticalAlignment="Top" HorizontalAlignment="Right" Width="100" Height="25" Content="Найти" Margin="0,299,220,0" Background="#FF4000" BorderBrush="#FF4000" Foreground="White"/>
+        <TextBox x:Name="from" Width="250" Height="25" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="10,208,0,0"/>
+        <TextBox x:Name="to" Width="250" Height="25" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="10,269,0,0"/>
+        <Button VerticalAlignment="Top" HorizontalAlignment="Right" Width="100" Height="25" Content="Найти" Margin="0,299,220,0" Background="#FF4000" BorderBrush="#FF4000" Foreground="White" Click="Search"/>
     </Grid>
 </Page>
