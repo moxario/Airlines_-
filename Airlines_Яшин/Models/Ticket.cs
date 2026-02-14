@@ -13,7 +13,9 @@ namespace Airlines_Яшин.Models
         public string To { get; set; }
         public DateTime StartTime { get; set; }
         public DateTime EndTime { get; set; }
-        public Ticket(int Price, string From, string To, DateTime StartTime, DateTime EndTime) {
+        public Ticket() { }
+        public Ticket(int Price, string From, string To, DateTime StartTime, DateTime EndTime)
+        {
             this.Price = Price;
             this.From = From;
             this.To = To;
