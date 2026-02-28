@@ -25,6 +25,7 @@ namespace Airlines_Яшин
         {
             InitializeComponent();
             init = this;
+            OpenPage(new Pages.Main());
         }
 
         public void OpenPage(Page Page)

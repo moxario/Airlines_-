@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // Общие сведения об этой сборке предоставляются следующим набором
 // набора атрибутов. Измените значения этих атрибутов для изменения сведений,
 // связанные со сборкой.
-[assembly: AssemblyTitle("WorkingBD")]
+[assembly: AssemblyTitle("WorkingDB")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("WorkingBD")]
+[assembly: AssemblyProduct("WorkingDB")]
 [assembly: AssemblyCopyright("Copyright ©  2026")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // Следующий GUID служит для идентификации библиотеки типов, если этот проект будет видимым для COM
-[assembly: Guid("36df9de4-08f4-42ca-95c5-91886507adc0")]
+[assembly: Guid("e370536a-d1f3-4a2c-8c37-a2f9ecebffce")]
 
 // Сведения о версии сборки состоят из указанных ниже четырех значений:
 //

@@ -12,19 +12,19 @@
             <ColumnDefinition Width="*"/>
             <ColumnDefinition Width="150"/>
         </Grid.ColumnDefinitions>
-        <Label VerticalAlignment="Top" HorizontalContentAlignment="Center" FontSize="20" Content="1999 ₽" Margin="0,24,0,0"/>
+        <Label x:Name="lPrice" VerticalAlignment="Top" HorizontalContentAlignment="Center" FontSize="20" Content="1999 ₽" Margin="0,24,0,0"/>
         <Button HorizontalAlignment="Center" Margin="0,64,0,0" VerticalAlignment="Top" Width="100" Height="25" Content="Подробнее"  Background="#FF4000" BorderBrush="#FF4000" Foreground="White"/>
         <Label VerticalAlignment="Top" Content="Победа" Grid.Column="1" Margin="10,0,0,0"/>
-        <Label VerticalAlignment="Top" FontSize="16" Content="05:00" Grid.Column="1" Margin="10,26,0,0" Height="33"/>
-        <Label VerticalAlignment="Top" Content="14.02.2026" Grid.Column="1" Margin="10,59,0,0"/>
-        <Label VerticalAlignment="Top" Content="Пермь" Grid.Column="1" Margin="10,85,0,0"/>
+        <Label x:Name="fromTime" VerticalAlignment="Top" FontSize="16" Content="05:00" Grid.Column="1" Margin="10,26,0,0" Height="33"/>
+        <Label x:Name="fromDate" VerticalAlignment="Top" Content="14.02.2026" Grid.Column="1" Margin="10,59,0,0"/>
+        <Label x:Name="from" VerticalAlignment="Top" Content="Пермь" Grid.Column="1" Margin="10,85,0,0"/>
         <Image Grid.Column="2" HorizontalAlignment="Left" Height="20" VerticalAlignment="Top" Width="20" Margin="10,40,0,0" Source="/Elements/plane_10829993.png"/>
         <Grid Grid.Column="2" Background="#939393" Height="5" Margin="0,64,0,44"/>
 
         <Label VerticalAlignment="Top" Content="Победа" Grid.Column="3" Margin="10,0,0,0"/>
-        <Label VerticalAlignment="Top" FontSize="16" Content="05:00" Grid.Column="3" Margin="10,26,0,0" Height="33"/>
-        <Label VerticalAlignment="Top" Content="14.02.2026" Grid.Column="3" Margin="10,59,0,0"/>
-        <Label VerticalAlignment="Top" Content="Пермь" Grid.Column="3" Margin="10,85,0,0"/>
+        <Label x:Name="toTime" VerticalAlignment="Top" FontSize="16" Content="05:00" Grid.Column="3" Margin="10,26,0,0" Height="33"/>
+        <Label x:Name="toDate" VerticalAlignment="Top" Content="14.02.2026" Grid.Column="3" Margin="10,59,0,0"/>
+        <Label x:Name="to" VerticalAlignment="Top" Content="Пермь" Grid.Column="3" Margin="10,85,0,0"/>
         <Image Grid.Column="2" Height="20" VerticalAlignment="Top" Margin="350,40,0,0" Source="/Elements/plane_10829993.png" HorizontalAlignment="Left" Width="20" RenderTransformOrigin="0.5,0.5">
             <Image.RenderTransform>
                 <TransformGroup>
@@ -35,6 +35,6 @@
                 </TransformGroup>
             </Image.RenderTransform>
         </Image>
-        <Label VerticalAlignment="Top" Content="В пути 2 часа 55 минут" Grid.Column="2" Margin="35,37,36,0" HorizontalContentAlignment="Center"/>
+        <Label x:Name="way" VerticalAlignment="Top" Content="В пути 2 часа 55 минут" Grid.Column="2" Margin="35,37,36,0" HorizontalContentAlignment="Center"/>
     </Grid>
 </UserControl>
